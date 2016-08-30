@@ -56,5 +56,5 @@ COPY ./debian-armhf/start.sh /
 EXPOSE 53 53/udp
 EXPOSE 80
 
-ENTRYPOINT ["/bash", "-c"]
+ENTRYPOINT ["/bin/bash", "-c"]
 CMD /start.sh
